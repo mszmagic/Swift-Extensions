@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 
     /*
      UITableViewを最下部にスクロールする

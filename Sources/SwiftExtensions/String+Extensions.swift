@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension String {
+public extension String {
     
     /*
      文字列を渡してシンプルなUIAlertControllerを表示する。

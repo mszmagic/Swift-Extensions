@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     
     /*
      日付オブジェクトの分かりやすい説明を取得する
