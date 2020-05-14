@@ -21,4 +21,10 @@ public extension Date {
     
     func 文() -> String { return getString() }
     
+    func getComponent(_ component: Calendar.Component) -> Int {
+        return Calendar.current.component(component, from: self)
+    }
+    
+    func 取得(_ component: Calendar.Component) -> Int { getComponent(component) }
+    
 }
