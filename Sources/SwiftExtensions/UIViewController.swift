@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
     
-    func getSceneDelegate() -> UISceneDelegate {
+    func getUISceneDelegate() -> UISceneDelegate {
         return self.view.window?.windowScene?.delegate
     }
     
