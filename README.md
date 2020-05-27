@@ -9,6 +9,11 @@ Swiftの便利な拡張
 ⭐️ "こんにちは".アラートを表示(on: self). ‬
 ⭐️ view1.丸みのあるボーダー()
 ⭐️ view2.丸め()
+⭐️ 123.文() //"123"
+⭐️ "ネコノヒー".保存(キーワード: "名前")
+⭐️ self.view.スクリーンショット()
+⭐️ self.getUISceneDelegate()
+⭐️ self.getUIApplicationDelegate()
 ```
 
 ## インストール方法：
