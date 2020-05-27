@@ -37,9 +37,7 @@ public extension String {
         UserDefaults.standard.set(self, forKey: toKey)
     }
     
-    func 保存(キーワード: String) {
-        store(toKey: キーワード)
-    }
+    func 保存(キーワード: String) { store(toKey: キーワード) }
     
     /*
      UserDefaults.standard.string

@@ -13,4 +13,6 @@ public extension Int {
         return String(self)
     }
     
+    func 文() -> String { return string() }
+    
 }

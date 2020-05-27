@@ -53,8 +53,6 @@ public extension UIView {
         
     }
     
-    func スクリーンショット() -> UIImage? {
-        return takeScreenshot()
-    }
+    func スクリーンショット() -> UIImage? { return takeScreenshot() }
     
 }
