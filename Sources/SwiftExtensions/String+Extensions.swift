@@ -28,4 +28,28 @@ public extension String {
         showSimpleAlert(on: on)
     }
     
+    //MARK: User Defaults
+    
+    /*
+     UserDefaults.standard.set
+     */
+    func store(toKey: String) {
+        UserDefaults.standard.set(self, forKey: toKey)
+    }
+    
+    func 保存(キーワード: String) { store(toKey: キーワード) }
+    
+    /*
+     UserDefaults.standard.string
+     */
+    init?(fromUserDefaultsKey: String) {
+        guard let retrivedValue = UserDefaults.standard.string(forKey: fromUserDefaultsKey) else { return nil }
+        self.init(retrivedValue)
+    }
+    
+    init?(キーワード: String) {
+        guard let retrivedValue = UserDefaults.standard.string(forKey: キーワード) else { return nil }
+        self.init(retrivedValue)
+    }
+    
 }
