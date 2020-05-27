@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     
     @available(iOS 13.0, *)
     func getUISceneDelegate() -> UISceneDelegate? {

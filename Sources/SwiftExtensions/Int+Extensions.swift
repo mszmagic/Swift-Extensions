@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
     
     func string() -> String {
         return String(self)
