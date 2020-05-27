@@ -10,10 +10,12 @@ import UIKit
 
 extension UIViewController {
     
+    @available(iOS 13.0, *)
     func getUISceneDelegate() -> UISceneDelegate {
         return self.view.window?.windowScene?.delegate
     }
     
+    @available(iOS 13.0, *)
     func getUIApplicationDelegate() -> UIApplicationDelegate {
         return UIApplication.shared.delegate
     }
