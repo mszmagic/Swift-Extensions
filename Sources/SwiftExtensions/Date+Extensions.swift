@@ -27,22 +27,4 @@ public extension Date {
     
     func 取得(_ component: Calendar.Component) -> Int { getComponent(component) }
     
-    //週番号を取得します
-    func getWeekNumber() -> Int {
-        return self.取得(.day) / 7
-    }
-    
-    func 週番号() -> Int {
-        return getWeekNumber()
-    }
-    
-    //曜日番号を取得します
-    func getDayNumberInWeek() -> Int {
-        return self.取得(.day) % 7
-    }
-    
-    func 曜日番号() -> Int {
-        return getDayNumberInWeek()
-    }
-    
 }
