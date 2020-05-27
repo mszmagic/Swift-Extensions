@@ -28,4 +28,21 @@ public extension String {
         showSimpleAlert(on: on)
     }
     
+    //MARK: User Defaults
+    
+    /*
+     UserDefaults.standard.set
+     */
+    func store(toKey: String) {
+        UserDefaults.standard.set(self, forKey: toKey)
+    }
+    
+    /*
+     UserDefaults.standard.string
+     */
+    init?(fromUserDefaultsKey: String) {
+        guard let retrivedValue = UserDefaults.standard.string(forKey: fromUserDefaultsKey) else { return nil }
+        self.init(retrivedValue)
+    }
+    
 }
