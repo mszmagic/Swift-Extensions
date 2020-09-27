@@ -5,6 +5,8 @@
 //  Created by Shunzhe Ma on 5/26/20.
 //
 
+#if os(iOS)
+
 import Foundation
 import UIKit
 
@@ -22,3 +24,5 @@ public extension UIViewController {
     }
     
 }
+
+#endif

@@ -5,6 +5,8 @@
 //  Created by Shunzhe Ma on 5/12/20.
 //
 
+#if os(iOS)
+
 import Foundation
 import UIKit
 
@@ -57,3 +59,5 @@ public extension UIView {
     func スクリーンショット() -> UIImage? { return takeScreenshot() }
     
 }
+
+#endif

@@ -5,6 +5,8 @@
 //  Created by Shunzhe Ma on 5/12/20.
 //
 
+#if os(iOS) || os(watchOS)
+
 import Foundation
 import UIKit
 
@@ -56,3 +58,5 @@ public extension UIColor {
     class var イエローグリーン: UIColor { return yellowGreen }
     
 }
+
+#endif

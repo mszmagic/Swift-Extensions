@@ -6,9 +6,14 @@
 //
 
 import Foundation
+
+#if os(iOS)
 import UIKit
+#endif
 
 public extension String {
+    
+    #if os(iOS)
     
     /*
      文字列を渡してシンプルなUIAlertControllerを表示する。
@@ -29,6 +34,8 @@ public extension String {
     func アラートを表示(on: UIViewController?) {
         showSimpleAlert(on: on)
     }
+    
+    #endif
     
     //MARK: User Defaults
     
