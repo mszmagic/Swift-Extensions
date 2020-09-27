@@ -14,6 +14,7 @@ public extension String {
      文字列を渡してシンプルなUIAlertControllerを表示する。
      Show a simple UIAlertController with the given string.
      */
+    @available(iOS 13.0, *)
     func showSimpleAlert(on: UIViewController?) {
         guard let onVC = on else { return }
         DispatchQueue.main.async {
@@ -24,6 +25,7 @@ public extension String {
         }
     }
     
+    @available(iOS 13.0, *)
     func アラートを表示(on: UIViewController?) {
         showSimpleAlert(on: on)
     }

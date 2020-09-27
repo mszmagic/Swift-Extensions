@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOS 13.0, *)
 public extension UIViewController {
     
     @available(iOS 13.0, *)
