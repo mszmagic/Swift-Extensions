@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Double {
+public extension Double {
     
     private func isInt() -> Bool {
         return (floor(self) == self)
